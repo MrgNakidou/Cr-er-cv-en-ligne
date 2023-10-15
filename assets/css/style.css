@@ -6,6 +6,10 @@
     src: url(../fonts/Raleway-VariableFont_wght.ttf);
     src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);  
 }
+header{
+    height: 406px;
+    width: 1160px;
+}
 .container{
     position: relative;
     width: 1160px;
@@ -49,6 +53,105 @@
  a{
     color: #ffff;
  }
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(6,0fr);
+    grid-template-rows: repeat(2);
+    column-gap: 100px;
+    row-gap: 100;
+    justify-content: space-between;
+}
+#bloc1{
+    width: 300px;
+    height: 200px;
+    text-indent: 20px;
+    text-align: justify;
+}
+p{
+    padding-left: 10px;
+    text-align: justify;
+}
+#bloc4{
+    height: 507.9375px;
+    width: 760px;
+}
+.expé{
+    background-color: white;
+    padding-left: 10px;
+}
+.two{
+    height: 1000.25px;
+    width: 759px;
+}
+#p1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#p2{
+    padding-top: 10px;
+}
+
+#p1:hover {
+    background-color: #dbc2a4;
+}
+#p2:hover {
+    background-color: #dbc2a4;
+}
+#p3:hover {
+    background-color: #dbc2a4;
+}
+#p4:hover {
+    background-color: #dbc2a4;
+}
+#p5:hover {
+    background-color: #dbc2a4;
+}
+#p6:hover {
+    background-color: #dbc2a4;
+}
+#p8{
+    height: 24px;
+    padding-left: 550px;
+    padding-top: 40px;
+    width: 24px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+#p9{
+    height: 24px;
+    padding-top: 40px;
+    width: 24px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#p7{
+    height: 24px;
+    padding-top: 40px;
+    width: 24px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#go{
+    height: 19px;
+    margin-block-end: 16px;
+    margin-block-start: 16px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding-left: 500px;
+    padding-bottom: 10px;
+    text-align: justify;	
+    width: 1150px;
+}
 
  
 
