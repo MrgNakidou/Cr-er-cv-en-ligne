@@ -29,11 +29,12 @@ header{
  h1{
      font-family: "Lato";
  }
- img{
+ #nkd{
      border-radius: 100%;
-     padding-top: 40px;
-     
- }
+     padding-top: 0px;
+     box-shadow: 0px 0px 8px;
+}
+
  
  .infos{
      background-color: #2c1d27;
@@ -50,8 +51,10 @@ header{
     padding-bottom: 10px;
     padding-top: 10px;
  }
+ 
  a{
     color: #ffff;
+    padding-top: 50px;
  }
 
 
@@ -70,6 +73,8 @@ header{
     text-indent: 20px;
     text-align: justify;
 }
+
+
 p{
     padding-left: 10px;
     text-align: justify;
@@ -81,6 +86,8 @@ p{
 .expé{
     background-color: white;
     padding-left: 10px;
+    width: 749px;
+    height: 974.34375px;
 }
 .two{
     height: 1000.25px;
@@ -89,6 +96,7 @@ p{
 #p1{
     padding-top: 10px;
     padding-left: 10px;
+    margin-block-start: 34px;
 }
 #p2{
     padding-top: 10px;
@@ -151,6 +159,10 @@ p{
     padding-bottom: 10px;
     text-align: justify;	
     width: 1150px;
+}
+#nkd:hover{
+     cursor: zoom-in;
+    
 }
 
  
