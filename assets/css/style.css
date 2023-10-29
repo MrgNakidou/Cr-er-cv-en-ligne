@@ -76,7 +76,7 @@ header{
 
 
 p{
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: justify;
 }
 #bloc4{
@@ -87,14 +87,19 @@ p{
     background-color: white;
     padding-left: 10px;
     width: 749px;
-    height: 974.34375px;
+    height: 990px;
+    
 }
 .two{
     height: 1000.25px;
     width: 759px;
+    
+}
+.one{
+    padding-top: 1.5em;
 }
 #p1{
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 10px;
     margin-block-start: 34px;
 }
